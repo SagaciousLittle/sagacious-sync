@@ -1,6 +1,6 @@
 {
   "name": "@sagacious/sync",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "synchronous promise or function that returns promise",
   "main": "index.js",
   "keywords": [
