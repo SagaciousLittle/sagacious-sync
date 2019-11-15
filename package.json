@@ -1,0 +1,26 @@
+{
+  "name": "@sagacious/sync",
+  "version": "0.0.1",
+  "description": "synchronous promise or function that returns promise",
+  "main": "index.js",
+  "keywords": [
+    "sync",
+    "promise",
+    "sync promise",
+    "sync promise fun",
+    "synchronize"
+  ],
+  "author": {
+    "name": "SagaciousLittle",
+    "email": "guoxiaozhuang4@outlook.com"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/SagaciousLittle/sagacious-sync.git"
+  },
+  "license": "ISC",
+  "dependencies": {
+    "deasync": "^0.1.15",
+    "p-is-promise": "^3.0.0"
+  }
+}
