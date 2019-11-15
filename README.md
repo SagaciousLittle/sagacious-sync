@@ -37,6 +37,6 @@ const p = new Promise(r => {
   }, 1000)
 })
 
-const a = sync.p()  //  'hello'
+const a = sync.p(p)  //  'hello'
 
 ```
