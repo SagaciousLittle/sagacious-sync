@@ -24,19 +24,19 @@ async function say () {
 
 const syncSay = sync.fun(say)
 
-say()  // return Promise
-syncSay()  // return 'hello'
+say()  // asynchronous execution, return promise
+syncSay()  // synchronous execution, return 'hello'
 
 
 /**
  * sync.p
 */
-const p = new Promise(r => {
+sync.p(new Promise(r => {
   setTimeout(() => {
     r('hello')
   }, 1000)
-})
+}))  // first echo 'hello'
 
-const a = sync.p(p)  //  'hello'
+console.log('world')  // and then echo 'world'
 
 ```
